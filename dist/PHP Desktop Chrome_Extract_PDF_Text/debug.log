@@ -1,0 +1,112 @@
+- 20:10:15.047 INFO: --------------------------------------------------------
+- 20:10:15.047 INFO: Started application
+- 20:10:15.047 INFO: Logging to: D:\MEGASync\Projects\php\PHP-Extract-PDF-Text\dist\Extract_PDF_Text\debug.log
+- 20:10:15.047 INFO: Log level = DEBUG4
+- 20:10:15.047 INFO: Starting Mongoose 3.9c web server
+- 20:10:15.047 INFO: WWW directory: D:\MEGASync\Projects\php\PHP-Extract-PDF-Text\dist\Extract_PDF_Text\www
+- 20:10:15.047 INFO: Index files: index.html,index.php
+- 20:10:15.047 INFO: CGI interpreter: D:\MEGASync\Projects\php\PHP-Extract-PDF-Text\dist\Extract_PDF_Text\php\php-cgi.exe
+- 20:10:15.047 INFO: CGI pattern: **.php$
+- 20:10:15.047 INFO: Hide files patterns: 
+- 20:10:15.047 INFO: CGI environment variables set: TMP=C:\Users\USER\AppData\Local\Temp\,TEMP=C:\Users\USER\AppData\Local\Temp\,TMPDIR=C:\Users\USER\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 20:10:15.063 INFO: Web server url: http://127.0.0.1:56518/
+- 20:10:15.063 INFO: remote_debugging_port = 56099
+- 20:10:15.063 DEBUG: Command line string for the browser process: "D:\MEGASync\Projects\php\PHP-Extract-PDF-Text\dist\Extract_PDF_Text\run-extract-pdf-text.exe" --no-sandbox --lang=en-US --log-file="D:\MEGASync\Projects\php\PHP-Extract-PDF-Text\dist\Extract_PDF_Text\debug.log" --remote-debugging-port=56099
+- 20:10:15.110 DEBUG: App::OnContextInitialized()
+- 20:10:15.110 INFO: DPI, window enlarged by 25% new width/height = 1000/750
+- 20:10:15.110 DEBUG: Window max width/height = 1842/974
+- 20:10:15.110 DEBUG: GetBrowserWindow(): not found, hwnd = 7210122
+- 20:10:15.110 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 20:10:15.110 DEBUG: BrowserWindow::CreateBrowserControl()
+- 20:10:15.110 DEBUG: StoreBrowserWindow(): hwnd = 7210122
+- 20:10:15.000 DEBUG: Command line string for the gpu-process process: "D:\MEGASync\Projects\php\PHP-Extract-PDF-Text\dist\Extract_PDF_Text\run-extract-pdf-text.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="D:\MEGASync\Projects\php\PHP-Extract-PDF-Text\dist\Extract_PDF_Text\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x9a49 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=32.0.101.6647 --gpu-driver-date=2-28-2025 --gpu-secondary-vendor-ids=0x0000 --gpu-secondary-device-ids=0x0000 --lang=en-US --log-file="D:\MEGASync\Projects\php\PHP-Extract-PDF-Text\dist\Extract_PDF_Text\debug.log" --service-request-channel-token=67F353F1A8AC90F8912A642B3BC20882 --mojo-platform-channel-handle=1904 /prefetch:2
+- 20:10:15.172 DEBUG: ClientHandler::OnAfterCreated()
+- 20:10:15.172 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 20:10:15.188 DEBUG: OnLoadingStateChange: loading=1, url=
+- 20:10:15.000 DEBUG: Command line string for the renderer process: "D:\MEGASync\Projects\php\PHP-Extract-PDF-Text\dist\Extract_PDF_Text\run-extract-pdf-text.exe" --type=renderer --no-sandbox --primordial-pipe-token=D9AFDBE2D68263337125711584F77D4A --lang=en-US --lang=en-US --log-file="D:\MEGASync\Projects\php\PHP-Extract-PDF-Text\dist\Extract_PDF_Text\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=D9AFDBE2D68263337125711584F77D4A --renderer-client-id=3 --mojo-platform-channel-handle=2464 /prefetch:1
+- 20:10:15.031 DEBUG: OnBrowserCreated()
+[0825/201015.823:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 20:10:16.407 INFO: GET 200 /js/bulma.navbar.js
+- 20:10:16.407 INFO: GET 200 /js/bulma.modal.js
+- 20:10:16.407 INFO: GET 200 /js/bulma.tab.js
+- 20:10:16.407 INFO: GET 200 /js/bulma.file.js
+- 20:10:16.407 INFO: GET 200 /
+- 20:10:16.188 DEBUG: OnContextCreated()
+- 20:10:16.407 INFO: GET 200 /css/bulma.min.css
+- 20:10:17.813 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:56518/
+[0825/201017.537:INFO:CONSOLE(0)] "Failed to decode downloaded font: https://ka-f.fontawesome.com/releases/v6.7.2/webfonts/free-fa-regular-400.woff2", source: http://127.0.0.1:56518/ (0)
+[0825/201017.538:INFO:CONSOLE(0)] "OTS parsing error: Failed to convert WOFF 2.0 font to SFNT", source: http://127.0.0.1:56518/ (0)
+[0825/201017.553:INFO:CONSOLE(0)] "Failed to decode downloaded font: https://ka-f.fontawesome.com/releases/v6.7.2/webfonts/free-fa-solid-900.woff2", source: http://127.0.0.1:56518/ (0)
+[0825/201017.553:INFO:CONSOLE(0)] "OTS parsing error: Failed to convert WOFF 2.0 font to SFNT", source: http://127.0.0.1:56518/ (0)
+- 20:10:21.547 DEBUG: WM_DESTROY
+- 20:10:21.547 DEBUG: RemoveBrowserWindow(): hwnd = 7210122
+- 20:10:21.547 INFO: Stopping Mongoose web server
+- 20:10:21.547 DEBUG: Mongoose webserver stopped immediately
+- 20:10:21.547 DEBUG: OnBeforeClose() hwnd=14353044
+- 20:10:21.547 DEBUG: RemoveBrowserWindow(): hwnd = 14353044
+- 20:10:21.547 DEBUG: GetBrowserWindow(): not found, hwnd = 14353044
+- 20:10:21.547 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 20:10:21.547 DEBUG: Calling CefQuitMessageLoop()
+- 20:10:21.344 DEBUG: OnBrowserDestroyed()
+- 20:10:21.594 INFO: Ended application
+- 20:10:21.594 INFO: --------------------------------------------------------
+- 20:14:29.062 INFO: --------------------------------------------------------
+- 20:14:29.078 INFO: Started application
+- 20:14:29.078 INFO: Logging to: D:\MEGASync\Projects\php\PHP-Extract-PDF-Text\dist\PHP Desktop Chrome_Extract_PDF_Text\debug.log
+- 20:14:29.078 INFO: Log level = DEBUG4
+- 20:14:29.078 INFO: Starting Mongoose 3.9c web server
+- 20:14:29.078 INFO: WWW directory: D:\MEGASync\Projects\php\PHP-Extract-PDF-Text\dist\PHP Desktop Chrome_Extract_PDF_Text\www
+- 20:14:29.078 INFO: Index files: index.html,index.php
+- 20:14:29.078 INFO: CGI interpreter: D:\MEGASync\Projects\php\PHP-Extract-PDF-Text\dist\PHP Desktop Chrome_Extract_PDF_Text\php\php-cgi.exe
+- 20:14:29.078 INFO: CGI pattern: **.php$
+- 20:14:29.078 INFO: Hide files patterns: 
+- 20:14:29.078 INFO: CGI environment variables set: TMP=C:\Users\USER\AppData\Local\Temp\,TEMP=C:\Users\USER\AppData\Local\Temp\,TMPDIR=C:\Users\USER\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 20:14:29.078 INFO: Web server url: http://127.0.0.1:64858/
+- 20:14:29.078 INFO: remote_debugging_port = 59494
+- 20:14:29.078 DEBUG: Command line string for the browser process: "D:\MEGASync\Projects\php\PHP-Extract-PDF-Text\dist\PHP Desktop Chrome_Extract_PDF_Text\run-extract-pdf-text.exe" --no-sandbox --lang=en-US --log-file="D:\MEGASync\Projects\php\PHP-Extract-PDF-Text\dist\PHP Desktop Chrome_Extract_PDF_Text\debug.log" --remote-debugging-port=59494
+- 20:14:29.125 DEBUG: App::OnContextInitialized()
+- 20:14:29.125 INFO: DPI, window enlarged by 25% new width/height = 1000/750
+- 20:14:29.125 DEBUG: Window max width/height = 1842/974
+- 20:14:29.125 DEBUG: GetBrowserWindow(): not found, hwnd = 5244724
+- 20:14:29.125 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 20:14:29.125 DEBUG: BrowserWindow::CreateBrowserControl()
+- 20:14:29.125 DEBUG: StoreBrowserWindow(): hwnd = 5244724
+- 20:14:29.000 DEBUG: Command line string for the gpu-process process: "D:\MEGASync\Projects\php\PHP-Extract-PDF-Text\dist\PHP Desktop Chrome_Extract_PDF_Text\run-extract-pdf-text.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="D:\MEGASync\Projects\php\PHP-Extract-PDF-Text\dist\PHP Desktop Chrome_Extract_PDF_Text\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x9a49 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=32.0.101.6647 --gpu-driver-date=2-28-2025 --gpu-secondary-vendor-ids=0x0000 --gpu-secondary-device-ids=0x0000 --lang=en-US --log-file="D:\MEGASync\Projects\php\PHP-Extract-PDF-Text\dist\PHP Desktop Chrome_Extract_PDF_Text\debug.log" --service-request-channel-token=28E903CEFD81F4177AC37EB2EE2727BE --mojo-platform-channel-handle=1904 /prefetch:2
+- 20:14:29.187 DEBUG: ClientHandler::OnAfterCreated()
+- 20:14:29.187 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 20:14:29.187 DEBUG: OnLoadingStateChange: loading=1, url=
+- 20:14:29.000 DEBUG: Command line string for the renderer process: "D:\MEGASync\Projects\php\PHP-Extract-PDF-Text\dist\PHP Desktop Chrome_Extract_PDF_Text\run-extract-pdf-text.exe" --type=renderer --no-sandbox --primordial-pipe-token=EB564F8763A2F1A184977AD89359558B --lang=en-US --lang=en-US --log-file="D:\MEGASync\Projects\php\PHP-Extract-PDF-Text\dist\PHP Desktop Chrome_Extract_PDF_Text\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=EB564F8763A2F1A184977AD89359558B --renderer-client-id=3 --mojo-platform-channel-handle=2468 /prefetch:1
+- 20:14:29.016 DEBUG: OnBrowserCreated()
+[0825/201429.354:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 20:14:30.328 INFO: GET 200 /
+- 20:14:30.328 INFO: GET 200 /css/bulma.min.css
+- 20:14:30.094 DEBUG: OnContextCreated()
+- 20:14:30.343 INFO: GET 200 /js/bulma.navbar.js
+- 20:14:30.343 INFO: GET 200 /js/bulma.modal.js
+- 20:14:30.343 INFO: GET 200 /js/bulma.file.js
+- 20:14:30.343 INFO: GET 200 /js/bulma.tab.js
+- 20:14:30.750 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:64858/
+[0825/201430.923:INFO:CONSOLE(0)] "Failed to decode downloaded font: https://ka-f.fontawesome.com/releases/v6.7.2/webfonts/free-fa-regular-400.woff2", source: http://127.0.0.1:64858/ (0)
+[0825/201430.923:INFO:CONSOLE(0)] "OTS parsing error: Failed to convert WOFF 2.0 font to SFNT", source: http://127.0.0.1:64858/ (0)
+[0825/201430.934:INFO:CONSOLE(0)] "Failed to decode downloaded font: https://ka-f.fontawesome.com/releases/v6.7.2/webfonts/free-fa-solid-900.woff2", source: http://127.0.0.1:64858/ (0)
+[0825/201430.935:INFO:CONSOLE(0)] "OTS parsing error: Failed to convert WOFF 2.0 font to SFNT", source: http://127.0.0.1:64858/ (0)
+- 20:14:40.609 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:64858/
+- 20:14:40.469 DEBUG: OnContextCreated()
+- 20:14:40.718 INFO: POST 200 /
+- 20:14:40.750 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:64858/
+[0825/201440.872:INFO:CONSOLE(0)] "Failed to decode downloaded font: https://ka-f.fontawesome.com/releases/v6.7.2/webfonts/free-fa-regular-400.woff2", source: http://127.0.0.1:64858/ (0)
+[0825/201440.872:INFO:CONSOLE(0)] "OTS parsing error: Failed to convert WOFF 2.0 font to SFNT", source: http://127.0.0.1:64858/ (0)
+[0825/201440.877:INFO:CONSOLE(0)] "Failed to decode downloaded font: https://ka-f.fontawesome.com/releases/v6.7.2/webfonts/free-fa-solid-900.woff2", source: http://127.0.0.1:64858/ (0)
+[0825/201440.878:INFO:CONSOLE(0)] "OTS parsing error: Failed to convert WOFF 2.0 font to SFNT", source: http://127.0.0.1:64858/ (0)
+- 20:14:53.218 DEBUG: WM_DESTROY
+- 20:14:53.218 DEBUG: RemoveBrowserWindow(): hwnd = 5244724
+- 20:14:53.218 INFO: Stopping Mongoose web server
+- 20:14:53.218 DEBUG: Mongoose webserver stopped immediately
+- 20:14:53.218 DEBUG: OnBeforeClose() hwnd=1313352
+- 20:14:53.218 DEBUG: RemoveBrowserWindow(): hwnd = 1313352
+- 20:14:53.218 DEBUG: GetBrowserWindow(): not found, hwnd = 1313352
+- 20:14:53.218 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 20:14:53.218 DEBUG: Calling CefQuitMessageLoop()
+- 20:14:53.000 DEBUG: OnBrowserDestroyed()
+- 20:14:53.250 INFO: Ended application
+- 20:14:53.250 INFO: --------------------------------------------------------
