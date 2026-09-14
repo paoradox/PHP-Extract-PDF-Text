@@ -96,4 +96,4 @@ The PDF-extraction approach is based on a tutorial by [CodexWorld](https://www.c
 
 ## License
 
-Not specified.
+Apache License 2.0
